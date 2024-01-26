@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Moderna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up" >
+            <form>
+                <h1>Crear Cuenta</h1>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>O use su correo electronico para registrarse</span>
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <button>Registrarse</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Iniciar Sesion</h1>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>O use su correo electronico y contraseña</span>
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contraseña">
+                <a href="#">Olvidaste tu contraseña?</a>
+                <button>Iniciar Sesion</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-lef">
+                    <h1>Bienvenido de nuevo</h1>
+                    <p>Ingresa tus datos personales
+                    para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="login">Iniciar Sesion</button>
+                </div>
+
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola, amigo!</h1>
+                    <p>Registrarse con sus datos personales
+                    para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="register">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer__container">
+        <h5 class="footer__texto">Elaborado por: Stiver Sánchez</h5>
+
+        <div class="footer__campo">
+        <img src="img/linkedin.png" class="footer__logo" alt="logo linkedin">
+        <a class="footer__link" href="https://www.linkedin.com/in/stiver-sanchez-palacios-a80aa6262/" target="_blank"> Linkedin</a>
+        </div>
+
+        <div class="footer__campo">
+        <img src="img/github.png" alt="logo github" class="footer__logo">
+        <a class="footer__link" href="https://github.com/stiversanchez" target="_blank"> Github</a>
+        </div>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
